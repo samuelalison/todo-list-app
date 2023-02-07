@@ -1,0 +1,15 @@
+.task-input {
+outline: none;
+width: 260px;
+border-radius: 5px;
+padding: 10px;
+border: none;
+margin-right: 10px;
+}
+
+.button-add{
+background-color: orange;
+border-radius: 5px;
+padding: 10px;
+border: none;
+}

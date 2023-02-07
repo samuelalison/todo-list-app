@@ -1,0 +1,50 @@
+.list-item{
+    display: flex;
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 30px;
+    border: 1px solid gray;
+   background-color: white;
+}
+
+.list{
+    width: 220px;
+    outline: none;
+    border-radius: none;
+    padding-left: 20px;
+    border: none; 
+    font-size: 24px ; 
+}
+
+.button-complete,
+.button-delete,
+.button-edit{
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background-color: transparent; 
+   font-size: 20px;
+   border-radius: 50%;
+}
+
+.complete{
+    text-decoration-style: solid;
+    text-decoration-line: line-through;
+    text-decoration-color: gray;
+    opacity: 0.6;
+}
+
+.button-complete{
+    color: lightseagreen;
+}
+
+.button-edit{
+color: #e2d029;
+}
+
+.button-delete{
+
+color: #ff6c6c;
+
+}
